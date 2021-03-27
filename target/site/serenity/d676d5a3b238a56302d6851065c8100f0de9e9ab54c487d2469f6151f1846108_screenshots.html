@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="77573dad525a0892915d8fc261e9cd84155b849278f8cf90a47e65dd4cfcb2cd.html">Check Available Flights</a></span>
+                > <span class="truncate-60"><a
+                    href="d676d5a3b238a56302d6851065c8100f0de9e9ab54c487d2469f6151f1846108.html">Check cheap flights </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-03-2021 13:02</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Check Available Flights </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user I want to check a flight with the lowest price
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Check cheap flights
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="17eb035d5b30c54fac1779245a1aaa41167364021ee6c04827c5b42c99d35ecc.png" title=" Given Arcangel wants to select the cheapest flight" width="1920"/>
+                <img src="17eb035d5b30c54fac1779245a1aaa41167364021ee6c04827c5b42c99d35ecc.png" title=" Arcangel opens the https://www.vivaair.com" width="1920"/>
+                <img src="17eb035d5b30c54fac1779245a1aaa41167364021ee6c04827c5b42c99d35ecc.png" title=" Given Arcangel wants to select the cheapest flight (completed)" width="1920"/>
+                <img src="c887ab803d44eeaf6c766fb1e26589c69a92f217bcea9a5cf937648ec30c85b7.png" title=" When Arcangel wants to compare the initial value with the final value" width="1920"/>
+                <img src="c887ab803d44eeaf6c766fb1e26589c69a92f217bcea9a5cf937648ec30c85b7.png" title=" Arcangel try login" width="1920"/>
+                <img src="c887ab803d44eeaf6c766fb1e26589c69a92f217bcea9a5cf937648ec30c85b7.png" title=" Arcangel clicks on cancel alert" width="1920"/>
+                <img src="3716286c77c2e231e68c07ab39afba35f900ca5873c96d4ca0fafb94e3a16fa3.png" title=" Arcangel clicks on cancel alert (completed)" width="1920"/>
+                <img src="3716286c77c2e231e68c07ab39afba35f900ca5873c96d4ca0fafb94e3a16fa3.png" title=" Arcangel clicks on check going" width="1920"/>
+                <img src="6fc8e5cf4b0ba9844c1a5889e5a455197b1540935fafe4d18e773bfb6fd3481b.png" title=" Arcangel clicks on check going (completed)" width="1920"/>
+                <img src="6fc8e5cf4b0ba9844c1a5889e5a455197b1540935fafe4d18e773bfb6fd3481b.png" title=" Arcangel clears field source" width="1920"/>
+                <img src="41da6285d43298f1528cd744747d52d07cdabf728f298f2f041a3eebe28e0d67.png" title=" Arcangel clears field source (completed)" width="1920"/>
+                <img src="41da6285d43298f1528cd744747d52d07cdabf728f298f2f041a3eebe28e0d67.png" title=" Arcangel enters 'Medellin' into source" width="1920"/>
+                <img src="d6e5eda1b6940375d5090378807e5696cba327499804e0f843824cb0a1df0578.png" title=" Arcangel enters 'Medellin' into source (completed)" width="1920"/>
+                <img src="d6e5eda1b6940375d5090378807e5696cba327499804e0f843824cb0a1df0578.png" title=" Arcangel clicks on [By.id: criteria-airport-select-departure-station-MDE]" width="1920"/>
+                <img src="76cedc8f30010da9680cce59e20d2164c9cb2556cd80c9f8919f60f4e7409b6a.png" title=" Arcangel clicks on [By.id: criteria-airport-select-departure-station-MDE] (completed)" width="1920"/>
+                <img src="76cedc8f30010da9680cce59e20d2164c9cb2556cd80c9f8919f60f4e7409b6a.png" title=" Arcangel enters 'Bogota' into destination" width="1920"/>
+                <img src="3db3f1bc2c85cf10a1e39a80bae3ff32c8b64140c245893dfca2162725c469fa.png" title=" Arcangel enters 'Bogota' into destination (completed)" width="1920"/>
+                <img src="3db3f1bc2c85cf10a1e39a80bae3ff32c8b64140c245893dfca2162725c469fa.png" title=" Arcangel clicks on [By.id: criteria-airport-select-destination-station-BOG]" width="1920"/>
+                <img src="75ffef81f3153f87689b8a624a44357c0627e4ddcc18e9aa154a179e19773006.png" title=" Arcangel clicks on [By.id: criteria-airport-select-destination-station-BOG] (completed)" width="1920"/>
+                <img src="75ffef81f3153f87689b8a624a44357c0627e4ddcc18e9aa154a179e19773006.png" title=" Arcangel clicks on field date" width="1920"/>
+                <img src="359736ad7224d98df6ba69cb9e88fb9c3f0ab9cd299cf06262f1186048a19951.png" title=" Arcangel clicks on field date (completed)" width="1920"/>
+                <img src="6612c8f84d5f888007f5716dd8aa211166b7bb55c99849390721af931bf89a23.png" title=" Arcangel clicks on date" width="1920"/>
+                <img src="0370ea85ffc76d6405a541cbc4cdf99f42f041c6df6c1eb17b596bee5e937439.png" title=" Arcangel clicks on date (completed)" width="1920"/>
+                <img src="0370ea85ffc76d6405a541cbc4cdf99f42f041c6df6c1eb17b596bee5e937439.png" title=" Arcangel clicks on search flight" width="1920"/>
+                <img src="ece34e5520b2a7ec341788c3f2d460d48a350b83b1b26e1ca11db416b18a776d.png" title=" Arcangel clicks on search flight (completed)" width="1920"/>
+                <img src="ece34e5520b2a7ec341788c3f2d460d48a350b83b1b26e1ca11db416b18a776d.png" title=" Arcangel try login (completed)" width="1920"/>
+                <img src="ece34e5520b2a7ec341788c3f2d460d48a350b83b1b26e1ca11db416b18a776d.png" title=" Arcangel select price" width="1920"/>
+                <img src="d2f4a7795e9915abde3086afa6d0f29b3ec5e99ed8b96a9a79348eccc16d821a.png" title=" Arcangel clicks on [By.xpath: //div[@class=&quot;from-price&quot; and contains(text(),&quot;COP 157,925&quot;)]]" width="1920"/>
+                <img src="53b6b109e8674720a28419b0c299105b24229b6c8a2e5c4263a4fc4dbc786dec.png" title=" Arcangel clicks on [By.xpath: //div[@class=&quot;from-price&quot; and contains(text(),&quot;COP 157,925&quot;)]] (completed)" width="1920"/>
+                <img src="be1d23a8ba107c5d329528685adb6cd66ebb281bcbe9dac05e2a9b6ad46d25d3.png" title=" Arcangel clicks on select card" width="1920"/>
+                <img src="3c8a106373471268fa7d56da5b69f9d28a6a619b6d484f1c11a107c496504790.png" title=" Arcangel clicks on select card (completed)" width="1920"/>
+                <img src="3c8a106373471268fa7d56da5b69f9d28a6a619b6d484f1c11a107c496504790.png" title=" Arcangel clicks on button continue" width="1920"/>
+                <img src="8d190bfcc834e4af3501e1302088242adb08f9c02d2232f279c0b4ee7cf9325d.png" title=" Arcangel clicks on button continue (completed)" width="1920"/>
+                <img src="8d190bfcc834e4af3501e1302088242adb08f9c02d2232f279c0b4ee7cf9325d.png" title=" Arcangel clicks on [By.xpath: //*[@id=&quot;seats-modal-body&quot;]/div/div[5]/div[2]/div[3]/div[1]/button]" width="1920"/>
+                <img src="326529065e1b4997345f307a4cebb16a00acaf57cc94e11561cf4bdf0d2be9b4.png" title=" Arcangel clicks on [By.xpath: //*[@id=&quot;seats-modal-body&quot;]/div/div[5]/div[2]/div[3]/div[1]/button] (completed)" width="1920"/>
+                <img src="326529065e1b4997345f307a4cebb16a00acaf57cc94e11561cf4bdf0d2be9b4.png" title=" Arcangel clicks on [By.xpath: //*[@class=&quot;vue-dialog-buttons&quot;]/button[1]]" width="1920"/>
+                <img src="65619bce56ca7e698c58ab5371b02cb6a610d13520b2238e2c38ee782c996a14.png" title=" Arcangel clicks on [By.xpath: //*[@class=&quot;vue-dialog-buttons&quot;]/button[1]] (completed)" width="1920"/>
+                <img src="65619bce56ca7e698c58ab5371b02cb6a610d13520b2238e2c38ee782c996a14.png" title=" Arcangel clicks on [By.xpath: //*[@class=&quot;bag-service-buttons&quot;]/div/button[1]]" width="1920"/>
+                <img src="7873568a7ba139577049759e6aad61fdc8c760e4f4b39ebc728f570f0407028a.png" title=" Arcangel clicks on [By.xpath: //*[@class=&quot;bag-service-buttons&quot;]/div/button[1]] (completed)" width="1920"/>
+                <img src="7873568a7ba139577049759e6aad61fdc8c760e4f4b39ebc728f570f0407028a.png" title=" Arcangel select price (completed)" width="1920"/>
+                <img src="7873568a7ba139577049759e6aad61fdc8c760e4f4b39ebc728f570f0407028a.png" title=" Arcangel extras" width="1920"/>
+                <img src="40f186d52658a36ff92bec85026ea533a2e64e62526d3c57924b8f430cb206cb.png" title=" Arcangel clicks on check in" width="1920"/>
+                <img src="393b57daa88a5021d172c2bac42aad35a40279c2dd8406bbff142a5bafa5a3ff.png" title=" Arcangel clicks on check in (completed)" width="1920"/>
+                <img src="1e157f2182ad1558bb1dabdb991759b04fb61a005e79856d91a633eb84b04eeb.png" title=" Arcangel clicks on check in" width="1920"/>
+                <img src="2bd414ec9a3dc72b4200a9e685e89fde53097fd6cb8d4f3429fc9bfa416768a1.png" title=" Arcangel clicks on check in (completed)" width="1920"/>
+                <img src="a585a21d237bff7c5e1fef7646a37895ec5254dc4a0c48b4f6c24bee034f532e.png" title=" Arcangel clicks on check in" width="1920"/>
+                <img src="6ad3eb12ad10e1817b1b281a00d21ae4965bff91e0f71878369c13053311bc10.png" title=" Arcangel clicks on check in (completed)" width="1920"/>
+                <img src="3ac45e7bb5f8c0efccc51b97b578a1408c8a775c99ad84528908c8b255eaaf33.png" title=" Arcangel clicks on check in" width="1920"/>
+                <img src="5f550b1e8a38548528ad9885a5ca70b27186192778dbaf2099d31e2af34542c4.png" title=" Arcangel clicks on check in (completed)" width="1920"/>
+                <img src="5f550b1e8a38548528ad9885a5ca70b27186192778dbaf2099d31e2af34542c4.png" title=" Arcangel extras (completed)" width="1920"/>
+                <img src="5f550b1e8a38548528ad9885a5ca70b27186192778dbaf2099d31e2af34542c4.png" title=" When Arcangel wants to compare the initial value with the final value (completed)" width="1920"/>
+                <img src="5f550b1e8a38548528ad9885a5ca70b27186192778dbaf2099d31e2af34542c4.png" title=" Then Arcangel makes the reservation" width="1920"/>
+                <img src="5f550b1e8a38548528ad9885a5ca70b27186192778dbaf2099d31e2af34542c4.png" title=" Then reservation should be (157925.0)" width="1920"/>
+                <img src="5f550b1e8a38548528ad9885a5ca70b27186192778dbaf2099d31e2af34542c4.png" title=" Then Arcangel makes the reservation (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.43</span>
+</div>
+</body>
+</html>
